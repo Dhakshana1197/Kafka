@@ -1,0 +1,11 @@
+Steps :
+
+Download and install kafka in cd /opt/kafka
+
+write zookeeper service and kafka service by using confirguration file 
+
+create profile under vi /etc/profile
+
+"export PATH = /opt/kafka/bin:$PATH"
+
+Use systemctl daemon-reload
